@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    style="@style/Platform.AppCompat"
+    android:theme="@style/Base.Animation.AppCompat.Dialog">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.13"
+        android:weightSum="1">
+        <ImageView
+            android:id="@+id/imageAvata"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/avata"
+            android:layout_margin="20sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="13dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sân: A1"
+                android:layout_margin="10sp"
+                android:id="@+id/textNameM"
+                android:textSize="17sp"
+                />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Time: 13h15-16h30"
+                android:layout_margin="10sp"
+                android:id="@+id/textTimeM"
+                android:textSize="13sp"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ngày: 8/5/2016"
+                android:layout_margin="10sp"
+                android:id="@+id/textDateM"
+                android:textSize="13sp"
+                />
+
+
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatButton
+            android:hint="Hủy"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold"
+            android:background="#05f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </android.support.v7.widget.AppCompatButton>
+
+
+    </LinearLayout>
+</LinearLayout>

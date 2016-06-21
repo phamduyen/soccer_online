@@ -1,0 +1,107 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.phamduyen.bongda.Profile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:background="@drawable/background">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:hint="Email"
+            android:textColorHint="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/userTextPro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:textColorHint="#FFFFFF"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/passTextPro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:textColor="#FFFFFF"
+                android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:hint="Soccer's Name"
+            android:layout_width="match_parent"
+            android:textColorHint="#FFFFFF"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/nameTextPro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:hint="Address"
+            android:layout_width="match_parent"
+            android:textColorHint="#FFFFFF"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/addressTextPro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:textColor="#FFFFFF"
+                android:inputType="textPhonetic"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:hint="Phone"
+            android:layout_width="match_parent"
+            android:textColorHint="#FFFFFF"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/phoneTextPro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:textColor="#FFFFFF"
+                android:inputType="textPhonetic"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="UpDate"/>
+    </LinearLayout>
+</FrameLayout>

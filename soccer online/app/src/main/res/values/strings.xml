@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bongda</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_manage__match">manage_Match</string>
+
+    <string name="parsed_data">http://android.vn\nHướng dẫn bởi thanhlong90.it</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_hinh_anh">HinhAnhActivity</string>
+    <string name="hinhanh">Chưa có hình ảnh nào trong tab này!</string>
+    <string name="title_activity_bai_hat">BaiHatActivity</string>
+    <string name="nghenhac">Chưa có bài nào trong tab này!</string>
+    <string name="title_activity_phim_anh">PhimAnhActivity</string>
+    <string name="xemphim">Chưa có video nào trong tab này!</string>
+</resources>

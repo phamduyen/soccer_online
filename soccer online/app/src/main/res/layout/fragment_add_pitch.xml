@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.phamduyen.bongda.AddPitch">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="20sp"
+        android:background="@drawable/background">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:hint="Tên sân"
+            android:textColorHint="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/txtPitchName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:textColor="#FFFFFF"
+                android:inputType="textPersonName" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:hint="Giá"
+            android:layout_width="match_parent"
+            android:textColorHint="#FFFFFF"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/txtPitchCost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:textColorHint="#FFFFFF"
+                android:inputType="textPersonName"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:hint="Loại sân"
+            android:layout_width="match_parent"
+            android:textColorHint="#FFFFFF"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/txtPitchPlayers"
+                android:layout_width="match_parent"
+                android:textColorHint="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:inputType="textPhonetic"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btAddPitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btCancelPitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Cancel" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
